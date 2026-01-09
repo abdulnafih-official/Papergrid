@@ -1,8 +1,9 @@
-a{
+a {
   text-decoration: none;
   color: white;
 }
-a:hover{
+
+a:hover {
   text-decoration: underline;
 }
 
@@ -10,7 +11,7 @@ a:hover{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif,monospace;
+  font-family: 'Montserrat', sans-serif, monospace;
 }
 
 body {
@@ -30,7 +31,7 @@ body {
   align-items: center;
 }
 
-.top-bar:hover{
+.top-bar:hover {
   background: rgb(39, 39, 39);
 }
 
@@ -57,6 +58,7 @@ body {
   display: flex;
   gap: 10px;
 }
+
 .nav-items {
   color: #fff;
   text-decoration: none;
@@ -93,11 +95,13 @@ body {
   height: auto;
   margin-bottom: 20px;
 }
+
 /* Founder Section */
 
 .founder {
   display: grid;
-  grid-template-columns: repeat(3, minmax(280px, 1fr));;
+  grid-template-columns: repeat(3, minmax(280px, 1fr));
+  ;
   padding: 60px 40px;
   align-items: center;
 }
@@ -134,6 +138,7 @@ body {
   font-size: 14px;
   cursor: pointer;
 }
+
 .founder-text button:hover {
 
   background: #333;
@@ -142,7 +147,7 @@ body {
 
 
 /* Contact Section */
-.contact{
+.contact {
   size: 30px;
   display: flex;
   flex-direction: column;
@@ -153,13 +158,14 @@ body {
   background: #111;
   color: lightgray;
 }
-.contact h2{
-   padding-top: 40px;
+
+.contact h2 {
+  padding-top: 40px;
   padding-bottom: 30px;
   margin-bottom: 10px;
 }
 
-.contact a{
+.contact a {
   size: 50px;
   color: lightgray;
   padding: 20px;
@@ -167,7 +173,7 @@ body {
   text-decoration: underline;
 }
 
-.contact a:hover{
+.contact a:hover {
   color: white;
 }
 
@@ -177,10 +183,10 @@ body {
   font-size: 14px;
   background: #111;
   color: #dfdfdfc2;
-  padding-left:10% ;
+  padding-left: 10%;
   padding-top: 40px;
   padding-bottom: 30px;
-  
+
   margin-top: 1px;
 }
 
